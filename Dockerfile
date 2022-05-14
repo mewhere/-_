@@ -6,7 +6,7 @@ RUN chmod 777 /usr/src/app
 COPY . .
 RUN apt install git -y
 RUN pip3 install --no-cache-dir -r requirements.txt
-RUN git clone https://github.com/gillzxo/temp-mirr.git temp-mirr
+RUN git clone https://github.com/gillzxo/apptest.git apptest
 RUN pip install --upgrade pip
 
 RUN chmod +x ./run
