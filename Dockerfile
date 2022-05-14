@@ -1,6 +1,5 @@
 FROM yashk7/tortoolkitbase
-WORKDIR /usr/src/app
-RUN chmod 777 /usr/src/app
+
 
 COPY . .
 RUN apt install git -y
