@@ -38,7 +38,7 @@
         "options": {
           "version": "12"
         },
-        "as":"DB_URI"
+        "as":"db"
       }
     ],
     "stack": "container"
